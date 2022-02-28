@@ -29,11 +29,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://raw.githubusercontent.com/madaaaaaaaaa/Morpion/master/src/main/resources/">
+  <a href="https://raw.githubusercontent.com/madaaaaaaaaa/Morpion/master/src/main/resources/logo_trans.png">
     <img src="logo_trans.png" alt="Logo" width="210" height="69">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">ReadME</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
