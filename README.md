@@ -8,7 +8,7 @@ This project is a multiplayer ultimate tic-tac-toe game, as part of the software
 
 ## Installation
 
-This repository is an IntellijIDEA javafx project. This is meant to be build using Java SDK version 17.
+This repository is an IntellijIDEA javafx project, meant to be build using Java SDK version 17.
 
 ## Usage
 
