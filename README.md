@@ -17,7 +17,7 @@ This repository is an IntellijIDEA javafx project, meant to be build using Java 
 
 
 ## Contributing
-This project is under MIT licence. Feel free to clone and do whatever you like with it. However ,no contribution to this repository will be accepted
+This project is under MIT licence. Feel free to clone and do whatever you like with it. However, no contribution to this repository will be accepted
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
