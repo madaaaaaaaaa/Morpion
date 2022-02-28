@@ -1,4 +1,8 @@
-# Morpion²
+<p align="center">
+  <img src="https://raw.githubusercontent.com/madaaaaaaaaa/Morpion/master/src/main/resources/logo_trans.png" />
+</p>
+
+# Overview
 
 This project is a multiplayer ultimate tic-tac-toe game, as part of the software engineering course at ENSTA Bretagne.
 
