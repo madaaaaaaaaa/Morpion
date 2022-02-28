@@ -9,6 +9,10 @@ public class Coordinates {
         this.column = column;
     }
 
+    public Coordinates() {
+
+    }
+
     public int getRow() {
         return row;
     }
@@ -23,5 +27,9 @@ public class Coordinates {
 
     public void setColumn(int column) {
         this.column = column;
+    }
+
+    public boolean equals(Coordinates cor){
+        return (cor.getRow() == this.getRow() && cor.getColumn() == this.getColumn());
     }
 }
