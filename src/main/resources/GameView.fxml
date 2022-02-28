@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="626.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameMVC.GameController">
+   <children>
+      <GridPane fx:id="bigGrid" gridLinesVisible="true" layoutX="75.0" layoutY="141.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="150.0" prefWidth="150.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="150.0" prefWidth="150.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="150.0" prefWidth="150.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="150.0" prefHeight="150.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="150.0" prefHeight="150.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="150.0" prefHeight="150.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane gridLinesVisible="true">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane gridLinesVisible="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="50.0" prefWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </GridPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo_trans.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
