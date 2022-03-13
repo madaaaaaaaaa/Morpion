@@ -32,4 +32,12 @@ public class Coordinates {
     public boolean equals(Coordinates cor){
         return (cor.getRow() == this.getRow() && cor.getColumn() == this.getColumn());
     }
+
+    @Override
+    public String toString() {
+        return "Coordinates{" +
+                "row=" + row +
+                ", column=" + column +
+                '}';
+    }
 }

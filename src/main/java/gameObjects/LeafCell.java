@@ -3,7 +3,7 @@ package gameObjects;
 import util.Coordinates;
 import util.Mark;
 
-public class LeafCell implements Cell{
+public class LeafCell extends Cell{
 
     private Coordinates cor;
     private Mark mark;
@@ -29,4 +29,9 @@ public class LeafCell implements Cell{
         this.mark = mark;
     }
 
+
+    @Override
+    public String toString(){
+        return "LeafCell=("+ this.cor + ")" + "[" + this.getMark() + "]";
+    }
 }

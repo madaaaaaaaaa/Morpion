@@ -3,13 +3,15 @@ package gameObjects;
 import util.Coordinates;
 import util.Mark;
 
-public interface Cell {
+public abstract class Cell {
 
-    public Coordinates getCor();
+    public abstract Coordinates getCor();
 
-    public void setCor(Coordinates cor);
+    public abstract void setCor(Coordinates cor);
 
-    public Mark getMark();
+    public abstract Mark getMark();
 
-    public void setMark(Mark mark);
+    public abstract void setMark(Mark mark);
+
+    public abstract String toString();
 }
